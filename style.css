@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*.but1 {
+    border-style: none;
+    font-size: 50px;
+    border-color: #257059;
+    align-content: bottom;
+  }
+
+.but1 a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: #257059;
+}*/
+
+  .but1 {
+    position: absolute;
+    bottom: 10px;
+    border: 3px solid #8AC007;
+    margin-right: 40px;
+  }
+
+/*.left {
+    left: 0;
+    background-color: #111;
+}*/
+
+/* Control the right side 
+.right {
+    right: 0;
+    background-color: red;
+}*/
+  
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+  
+  
+.content {
+    text-align: center;
+    font-size: 40;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+  
+ul {
+    color: black;
+    display: flex;
+    font: bolder;
+    list-style: none;
+}
+  
+ul li {
+    list-style: none;
+    padding: 10px 20px;
+}
+  
+ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+
+
+}
+
+
+
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+  
+  
+a:hover {
+    color: white;
+}
+  
+.right {
+    right: 0;
+    background-color: #468C77;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+
+}
+
+
+
+
+.left {
+    left: 0;
+    background-color: #257059; 
+}
+  
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+  
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+header {
+    color: red;
+    font-size: larger;
+    opacity: 1;
+}
+
+.left > .topnav {
+    overflow: hidden;
+}
+
+.left > .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.right > .topnav {
+    float: right;
+}
+
+.right > .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.teamarticle{
+    display: inline-block;
+    width: 47%;
+    background-color: white;
+    padding: 24px 11px;
+    margin: auto auto 20px 5px;
+    text-align: left;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.topnav a:hover {
+    background-color: #257059;
+    color: black;
+    transition-delay: 3s;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Mobile users see this*/
+    /* Make lists inline */
+    ul {
+        display: inline;
+    }
+}
